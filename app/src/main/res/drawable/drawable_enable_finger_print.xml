@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/round"
+        android:gravity="center">
+        <shape android:shape="oval">
+            <solid android:color="#898787" />
+            <size
+                android:width="75dp"
+                android:height="75dp" />
+            <stroke android:color="#FFF" />
+        </shape>
+    </item>
+
+    <item android:id="@+id/finger_print">
+        <bitmap
+            android:gravity="center"
+            android:src="@drawable/icon_finger_print" />
+    </item>
+
+</layer-list>
